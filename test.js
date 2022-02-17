@@ -1,10 +1,19 @@
-var youLikeMeat = true;
+var wiek = 22;
 
-if (youLikeMeat){
+if (wiek > 30) {
 
-Document.write ("Tu jest menu mięsne...");
+    document.write("masz mniej niż 30 lat");
 
 }
-else{
-    Document.write ("Tu jest menu vege...");
+
+else if (wiek > 20) {
+
+    document.write("masz więcej niż 20 lat");
+
+}
+
+else if (wuek > 10) {
+
+    document.write("masz więcej niż 10 lat");
+
 }
