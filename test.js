@@ -1,15 +1,9 @@
-for (i = 0; i < 10; i++) {
+function obliczŚrednią(a, b) {
 
-    if (i === 5 || i === 3) {
+    var średnia = (a + b) / 2;
+    console.log(średnia);
+    return średnia;
 
-        continue;
-
-    }
-
-    console.log(i);
-    if (i === 7) {
-        break;
-    }
 }
-
-console.log("zatrzymałem pętlę");
+var mójWynik = obliczŚrednią(7, 4);
+console.log("średnia to " + mójWynik);
