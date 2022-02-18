@@ -1,9 +1,9 @@
-var wiek = 5;
+var links = document.getElementsByTagName("a");
 
-while (wiek < 10) {
+for (i = 0; i < links.length; i++) {
 
-    console.log("masz mniej niż 10 lat")
-wiek++;
+    console.log("to jest link numer" +i);
+
 }
 
-document.write("masz teraz więcej niż 10 lat");
+document.write("teraz linki są w pętli");
