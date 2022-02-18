@@ -1,19 +1,13 @@
-var wiek = 22;
+var wiek = 25;
 
-if (wiek > 30) {
+if (wiek < 18 || wiek > 30 || wiek === 25) {
 
-    document.write("masz mniej niż 30 lat");
-
-}
-
-else if (wiek > 20) {
-
-    document.write("masz więcej niż 20 lat");
+    document.write("Nie możesz jechać:(");
 
 }
 
-else if (wuek > 10) {
+else {
 
-    document.write("masz więcej niż 10 lat");
-
+    document.write("Możesz jechać!");
+   
 }
