@@ -1,13 +1,9 @@
-var wiek = 25;
+var wiek = 5;
 
-if (wiek < 18 || wiek > 30 || wiek === 25) {
+while (wiek < 10) {
 
-    document.write("Nie możesz jechać:(");
-
+    console.log("masz mniej niż 10 lat")
+wiek++;
 }
 
-else {
-
-    document.write("Możesz jechać!");
-   
-}
+document.write("masz teraz więcej niż 10 lat");
