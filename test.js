@@ -1,14 +1,12 @@
-var a = "6";
-var b = 5;
+var mójString = 'String razem z "cytatem"';
 
-if (isNaN(a)) {
+if (mójString.indexOf("razem") === -1){
 
-    console.log("To nie jest liczba");
+console.log("Bark słowa");
 
-} else {
+}
+else{
 
-    console.log("iloczyn podanych liczb to " + (a * b));
-    console.log("różnica podanych liczb to " + (a - b));
-    console.log("suma podanych liczb to " + (a + b));
+    console.log ("słowo 'razem' następuje po " + mójString.indexOf("razem") + " znakach");
 
 }
