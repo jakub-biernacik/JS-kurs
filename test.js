@@ -6,4 +6,11 @@ function obliczŚrednią(a, b) {
 
 }
 var mójWynik = obliczŚrednią(7, 4);
-console.log("średnia to " + mójWynik);
+
+function logWynik(){
+
+    console.log("średnia to " + mójWynik);
+
+}
+
+logWynik();
