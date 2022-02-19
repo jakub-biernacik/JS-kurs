@@ -1,16 +1,9 @@
-function obliczŚrednią(a, b) {
+var a =  5;
+var b = 5;
 
-    var średnia = (a + b) / 2;
-    console.log(średnia);
-    return średnia;
+console.log(a+b);
 
-}
-var mójWynik = obliczŚrednią(7, 4);
-
-function logWynik(){
-
-    console.log("średnia to " + mójWynik);
-
-}
-
-logWynik();
+console.log (Math.round(7.6));
+console.log (Math.floor(7.6));
+console.log (Math.ceil(7.6));
+console.log (Math.max(7, 8, 9, 10));
