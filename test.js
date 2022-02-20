@@ -1,12 +1,16 @@
-var mójString = 'String razem z "cytatem"';
+var myCar2 = {
 
-if (mójString.indexOf("razem") === -1){
+    maxSpeed: "Maksymalna prędkość pojazdu to " + 70,
+    driver: "Jakub",
+    drive: function (speed, time) {
+        console.log("Samochód jedzie " + speed * time + "/h");
+    },
+    logDriver: function(){
+        console.log("Imie kierowcy to " + this.driver);
+    }
 
-console.log("Bark słowa");
+};
 
-}
-else{
-
-    console.log ("słowo 'razem' następuje po " + mójString.indexOf("razem") + " znakach");
-
-}
+myCar2.logDriver();
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);
